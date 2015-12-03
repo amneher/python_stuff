@@ -6,12 +6,10 @@
 how_high = int(input("Enter the range: "))
 nth_prime = int(input("Enter the prime to find: "))
 
+
 def find_a_prime(nth_prime, how_high):
 
 	primes = [1,3,5,7]	
-""" I did this because I ran into issues getting the single-digit primes to show up.
- If you have a better solution, let me know.
-"""
 
 	for i in range(10, how_high):
 		if i%2==0:
